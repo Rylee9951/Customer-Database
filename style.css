@@ -1,0 +1,49 @@
+html {box-sizing: border-box;}
+*,*:after; *:before{box-sizing: inherit;}
+
+
+#container{
+	margin: auto;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+.contact{
+	width: 300px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.image{
+	width: 300px;
+}
+.name{
+	display: inline-block;
+	margin-left: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #BEE2CE;
+	padding-bottom: 5px;
+}
+.email{
+	color: #ccc;
+}
+.address{
+	width: 200px;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+}
+.mobile{
+
+}
+.social{
+	color: transparent;
+   	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.social:hover{
+	color: black;
+}	
